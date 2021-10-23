@@ -1,0 +1,6 @@
+no_apples = input ("How many apples do you want to buy?")
+no_apple = int (no_apples)
+no_oranges = input ("How many oranges do you want to buy?")
+no_oranges = int (no_oranges)
+total_cost = (no_apple*20) + (no_oranges*25)
+print (f"The total amount is {total_cost}")
